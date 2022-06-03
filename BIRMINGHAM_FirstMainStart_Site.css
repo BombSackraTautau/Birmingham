@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(img/birmingham-river-uk.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white transparent;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+
+}
+
+.summary{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/0_CATERS_BEAUTY_OF_BIRMINGHAM_01-800x498\ \(1\).jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.summary h1{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    top: 700px;
+    left: 550px
+}
+
+.summary h4{
+    color: white;
+    font-size: 25px;
+    margin: 0%;
+    padding: 190px 125px;
+}
+
+body{
+    background-color: rgb(239,72,107);
+}
+
+.video{
+    margin:auto;
+    display: block;
+    padding-top: 100px;
+}
